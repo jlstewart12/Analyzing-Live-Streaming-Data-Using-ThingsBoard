@@ -1,1 +1,1 @@
-# Analyzing-Live-Streaming-Data-Using-ThingsBoard
+# Analyzing Live Streaming Data Using ThingsBoard
