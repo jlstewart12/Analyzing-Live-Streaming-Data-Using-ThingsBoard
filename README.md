@@ -23,10 +23,10 @@
     Password: tenant
     ```
     ![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/TBpage.png)
-7. Open the DHT11 Demo Device by selecting it from the menu on the left. Navigate to the Latest Telemetry tab to see the latest telemetry.
+7. Open the ```DHT11 Demo Device``` by selecting it from the menu on the left. Navigate to the Latest Telemetry tab to see the latest telemetry.
     ![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/latest_telemetry.png)
-8.  Create a project in Firebase then add a field in the database titled ```temperature``` and initialized the corresponding field to zero.
-9. Created a ```Firebase node```, connected it to a ```Message Type Switch``` node, and added ```Post telemetry``` as the link label.
+8.  Create a project in Firebase then add a field in the database titled ```temperature``` and initialize the corresponding field to zero.
+9. Create a ```Firebase node```, connect it to a ```Message Type Switch``` node, and add ```Post telemetry``` as the link label.
     ![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/nodes.png)
 10. Realtime database updates will appear in ThingsBoard and publish temperature and humidity data.
     ![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/realtime_db.png)
