@@ -1,5 +1,30 @@
 # Analyzing Live Streaming Data Using ThingsBoard
 
+## Mosquitto
+* MQTT: Message Queuing Telemetry Transport used to handle sensor data
+* MQTT protocol (implemented by
+Mosquitto ): Designed as an extremely lightweight publish/subscribe messaging
+transport, it is useful for connections with remote locations where a small code footprint is required and/or network
+bandwidth is at a premium.
+* MQTT Broker is responsible for receiving network connections from the client and handling the client’s requests of
+Subscribe/Unsubscribe and Publish, as well as forwarding the messages published by the client to other subscribers.
+![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/mqtt.png)
+Image: https://randomnerdtutorials.com/what is mqtt and how it works/
+
+## ThingsBoard
+An "open source platform that allows for the development, implementation, and testing of input
+and output data from IoT devices."
+https://thingsboard.io/
+### Key Features
+- Device management
+- Data collection
+- Processing and Visualization for IoT
+### Components
+- Devices
+- Assets
+- Rule Engine
+- Root Rule Chain
+
 ## Installation
 ![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/24P11.png)
 1. Run the ```docker-compose up``` command from within the parent folder.
