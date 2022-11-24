@@ -13,7 +13,7 @@ Image: https://randomnerdtutorials.com/what-is-mqtt-and-how-it-works/
 
 ## ThingsBoard
 An "open source platform that allows for the development, implementation, and testing of input
-and output data from IoT devices."
+and output data from IoT devices."  
 https://thingsboard.io/
 ### Key Features
 - Device management
