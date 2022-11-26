@@ -104,3 +104,7 @@ Send information about the streaming MQTT data that is above a certain threshold
 
 </p>
 </details>
+
+## Firebase
+* ```alarm``` field will publish the live streaming data from the CreateAndClearAlarm rule chain.
+* ```temperature``` field will publish temperature and humidity data.
