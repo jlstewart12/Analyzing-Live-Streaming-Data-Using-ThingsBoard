@@ -38,9 +38,8 @@ https://thingsboard.io/
 1. Run the ```docker-compose up``` command from within the parent folder.
 2. Install the Paho MQTT Python client library locally by running ```pip install paho-mqtt``` in the terminal.
 3. Inside of your home folder, create two folders named ```.mytb-data``` and ```.mytb-logs```.
-4. Project_MQTT folder within the Project_Docker folder
 
-<details><summary>Project_Docker folder</summary>
+<details><summary>Project_MQTT folder within Project_Docker folder</summary>
 <p>
 
 ![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/24P13.png)
