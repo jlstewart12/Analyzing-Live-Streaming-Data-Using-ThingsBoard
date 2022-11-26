@@ -26,12 +26,28 @@ https://thingsboard.io/
 - Root Rule Chain
 
 ## Installation
+
+<details><summary>Project_Docker folder</summary>
+<p>
+
 ![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/24P11.png)
+
+</p>
+</details>
+
 1. Run the ```docker-compose up``` command from within the parent folder.
 2. Install the Paho MQTT Python client library locally by running ```pip install paho-mqtt``` in the terminal.
 3. Inside of your home folder, create two folders named ```.mytb-data``` and ```.mytb-logs```.
-4. The Project_MQTT folder should be in the same folder as the Project_Docker folder with the following setup.
+4. Project_MQTT folder within the Project_Docker folder
+
+<details><summary>Project_Docker folder</summary>
+<p>
+
 ![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/24P13.png)
+
+</p>
+</details>
+
 5. Values for temperature and humidity will start appearing after running the ```TBPublish.py``` file in VS Code.
     ```
     Temperature: 25 humidity: 95
