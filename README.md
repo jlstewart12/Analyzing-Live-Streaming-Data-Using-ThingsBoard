@@ -89,7 +89,7 @@ Send information about the streaming MQTT data that is above a certain threshold
 </p>
 </details>
 
-<details><summary>AlarmToFirebase and TempToFirebase node connections</summary>
+<details><summary>AlarmToFirebase and TempToFirebase connection</summary>
 <p>
 
 ![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/NodeConnections.png)
@@ -97,7 +97,7 @@ Send information about the streaming MQTT data that is above a certain threshold
 </p>
 </details>
 
-<details><summary>SaveTimeseries and CreateAndClearAlarm node connections</summary>
+<details><summary>SaveTimeseries and CreateAndClearAlarm connection</summary>
 <p>
 
 ![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/SaveTimeseriesAndCreateAndClearAlarm.png)
