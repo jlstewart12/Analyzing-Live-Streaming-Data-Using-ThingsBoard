@@ -71,7 +71,7 @@ https://thingsboard.io/
 10. Realtime database updates will appear in ThingsBoard and publish temperature and humidity data.
     ![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/realtime_db.png)
 ## Rule Chains
-Sends information about the streaming MQTT data that is above a certain threshold to Firebase.
+Send information about the streaming MQTT data that is above a certain threshold to Firebase.
 
 <details><summary>CreateAndClearAlarms</summary>
 <p>
