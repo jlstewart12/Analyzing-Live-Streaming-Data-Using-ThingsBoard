@@ -78,3 +78,6 @@ Sends information about the streaming MQTT data that is above a certain threshol
 
 ### ```TempToFirebase```
 ![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/TempToFirebase.png)
+
+### ```AlarmToFirebase and TempToFirebase node connections```
+![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/NodeConnections.png)
