@@ -73,7 +73,7 @@ https://thingsboard.io/
 ## Rule Chains
 Send information about the streaming MQTT data that is above a certain threshold to Firebase.
 
-<details><summary>CreateAndClearAlarms</summary>
+<details><summary>CreateAndClearAlarm</summary>
 <p>
 
 ![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/CreateAndClearAlarms.png)
