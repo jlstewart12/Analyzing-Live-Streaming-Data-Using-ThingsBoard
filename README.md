@@ -73,11 +73,34 @@ https://thingsboard.io/
 ## Rule Chains
 Sends information about the streaming MQTT data that is above a certain threshold to Firebase.
 
-### ```CreateAndClearAlarms```
+<details><summary>CreateAndClearAlarms</summary>
+<p>
+
 ![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/CreateAndClearAlarms.png)
 
-### ```TempToFirebase```
+</p>
+</details>
+
+<details><summary>TempToFirebase</summary>
+<p>
+
 ![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/TempToFirebase.png)
 
-### ```AlarmToFirebase and TempToFirebase node connections```
+</p>
+</details>
+
+<details><summary>AlarmToFirebase and TempToFirebase node connections</summary>
+<p>
+
 ![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/NodeConnections.png)
+
+</p>
+</details>
+
+<details><summary>SaveTimeseries and CreateAndClearAlarm node connections</summary>
+<p>
+
+![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/SaveTimeseriesAndCreateAndClearAlarm.png)
+
+</p>
+</details>
