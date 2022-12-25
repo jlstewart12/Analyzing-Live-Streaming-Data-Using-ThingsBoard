@@ -1,5 +1,3 @@
-# Analyzing Live Streaming Data Using ThingsBoard
-
 ## Mosquitto
 * MQTT: Message Queuing Telemetry Transport used to handle sensor data
 * MQTT protocol (implemented by
