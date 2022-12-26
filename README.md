@@ -9,7 +9,8 @@ Subscribe/Unsubscribe and Publish, as well as forwarding the messages published 
 <p align="center">
   <img src="https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/mqtt.png">
 </p>
-Image: <a href="https://randomnerdtutorials.com/what-is-mqtt-and-how-it-works/"></a>
+Image: 
+<a href="https://randomnerdtutorials.com/what-is-mqtt-and-how-it-works/"></a>
 
 ## ThingsBoard
 An "open source platform that allows for the development, implementation, and testing of input
