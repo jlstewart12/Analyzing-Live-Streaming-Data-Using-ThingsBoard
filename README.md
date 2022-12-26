@@ -26,10 +26,8 @@ https://thingsboard.io/
 ## Installation
 
 <details><summary>Project_Docker folder</summary>
-<p>
-
-![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/24P11.png)
-
+<p align="center">
+  <img src="https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/24P11.png">
 </p>
 </details>
 
