@@ -12,8 +12,9 @@ Subscribe/Unsubscribe and Publish, as well as forwarding the messages published 
 
 ## ThingsBoard
 An "open source platform that allows for the development, implementation, and testing of input
-and output data from IoT devices."  
-https://thingsboard.io/
+and output data from IoT devices." 
+<a href="https://thingsboard.io/">thingsboard.io</a> 
+
 ### Key Features
 - Device management
 - Data collection
@@ -27,11 +28,13 @@ https://thingsboard.io/
 ## Installation
 
 <details><summary>Project_Docker folder</summary>
-<p>
 
-![](/images/24P11.png)
+<p align="center">
+
+  <img src="images/24P11.png">
 
 </p>
+
 </details>
 
 1. Run the ```docker-compose up``` command from within the parent folder.
@@ -39,11 +42,12 @@ https://thingsboard.io/
 3. Inside of your home folder, create two folders named ```.mytb-data``` and ```.mytb-logs```.
 
 <details><summary>Project_MQTT folder within Project_Docker folder</summary>
-<p>
+<p align="center">
 
-![](/images/24P13.png)
+<img src="images/24P13.png">
 
 </p>
+
 </details>
 
 5. Values for temperature and humidity will start appearing after running the ```TBPublish.py``` file in VS Code.
@@ -70,21 +74,21 @@ https://thingsboard.io/
 10. Realtime database updates will appear in ThingsBoard and publish temperature and humidity data.
     ![](/images/realtime_db.png)
 ## Rule Chains
-Send information about the streaming MQTT data that is above a certain threshold to Firebase.
+Sending information about the streaming MQTT data that is above a certain threshold to Firebase.
 
-CreateAndClearAlarm
+### CreateAndClearAlarm
 
 ![](/images/CreateAndClearAlarms.png)
 
-TempToFirebase
+### TempToFirebase
 
 ![](/images/TempToFirebase.png)
 
-AlarmToFirebase and TempToFirebase connection
+### AlarmToFirebase and TempToFirebase connection
 
 ![](/images/NodeConnections.png)
 
-SaveTimeseries and CreateAndClearAlarm connection
+### SaveTimeseries and CreateAndClearAlarm connection
 
 ![](/images/SaveTimeseriesAndCreateAndClearAlarm.png)
 
