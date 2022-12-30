@@ -7,7 +7,8 @@ bandwidth is at a premium.
 * MQTT Broker is responsible for receiving network connections from the client and handling the client’s requests of
 Subscribe/Unsubscribe and Publish, as well as forwarding the messages published by the client to other subscribers.
 ![](/images/mqtt.png)
-Image: https://randomnerdtutorials.com/what-is-mqtt-and-how-it-works/
+
+<a href="https://randomnerdtutorials.com/what-is-mqtt-and-how-it-works/">Image Source</a>
 
 ## ThingsBoard
 An "open source platform that allows for the development, implementation, and testing of input
