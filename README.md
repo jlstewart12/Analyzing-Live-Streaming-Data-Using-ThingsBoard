@@ -8,7 +8,7 @@ transport, it is useful for connections with remote locations where a small code
 bandwidth is at a premium.
 * MQTT Broker is responsible for receiving network connections from the client and handling the client’s requests of
 Subscribe/Unsubscribe and Publish, as well as forwarding the messages published by the client to other subscribers.
-![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/mqtt.png)
+![](/images/mqtt.png)
 Image: https://randomnerdtutorials.com/what-is-mqtt-and-how-it-works/
 
 ## ThingsBoard
@@ -30,7 +30,7 @@ https://thingsboard.io/
 <details><summary>Project_Docker folder</summary>
 <p>
 
-![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/24P11.png)
+![](/images/24P11.png)
 
 </p>
 </details>
@@ -42,7 +42,7 @@ https://thingsboard.io/
 <details><summary>Project_MQTT folder within Project_Docker folder</summary>
 <p>
 
-![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/24P13.png)
+![](/images/24P13.png)
 
 </p>
 </details>
@@ -62,48 +62,33 @@ https://thingsboard.io/
     Login: tenant@thingsboard.org
     Password: tenant
     ```
-    ![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/TBpage.png)
+    ![](/images/TBpage.png)
 7. Open the ```DHT11 Demo Device``` by selecting it from the menu on the left. Navigate to the Latest Telemetry tab to see the latest telemetry.
-    ![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/latest_telemetry.png)
+    ![](/images/latest_telemetry.png)
 8.  Create a project in Firebase then add a field in the database titled ```temperature``` and initialize the corresponding field to zero.
 9. Create a ```Firebase node```, connect it to a ```Message Type Switch``` node, and add ```Post telemetry``` as the link label.
-    ![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/nodes.png)
+    ![](/images/nodes.png)
 10. Realtime database updates will appear in ThingsBoard and publish temperature and humidity data.
-    ![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/realtime_db.png)
+    ![](/images/realtime_db.png)
 ## Rule Chains
 Send information about the streaming MQTT data that is above a certain threshold to Firebase.
 
-<details><summary>CreateAndClearAlarm</summary>
-<p>
+CreateAndClearAlarm
 
-![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/CreateAndClearAlarms.png)
+![](/images/CreateAndClearAlarms.png)
 
-</p>
-</details>
+TempToFirebase
 
-<details><summary>TempToFirebase</summary>
-<p>
+![](/images/TempToFirebase.png)
 
-![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/TempToFirebase.png)
+AlarmToFirebase and TempToFirebase connection
 
-</p>
-</details>
+![](/images/NodeConnections.png)
 
-<details><summary>AlarmToFirebase and TempToFirebase connection</summary>
-<p>
+SaveTimeseries and CreateAndClearAlarm connection
 
-![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/NodeConnections.png)
+![](/images/SaveTimeseriesAndCreateAndClearAlarm.png)
 
-</p>
-</details>
-
-<details><summary>SaveTimeseries and CreateAndClearAlarm connection</summary>
-<p>
-
-![](https://github.com/jlstewart12/Analyzing-Live-Streaming-Data-Using-ThingsBoard/blob/main/images/SaveTimeseriesAndCreateAndClearAlarm.png)
-
-</p>
-</details>
 
 ## Firebase
 * ```alarm``` field publishes the live streaming data from the CreateAndClearAlarm rule chain.
